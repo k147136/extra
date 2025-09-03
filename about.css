@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("about.jpg");
+    /* Replace with your own image if needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.about-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.content-box {
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.content-box h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFD700;
+}
+
+.content-box p,
+.content-box ul {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.content-box ul {
+    list-style-type: square;
+    margin-left: 20px;
+}

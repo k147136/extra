@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: ;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+.contact-container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box {
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    color: white;
+}
+
+.phone {
+    background: #00796B;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.email {
+    background: #616161;
+}
+
+.facebook {
+    background: #3b5998;
+}
+
+.twitter {
+    background: #1DA1F2;
+}
+
+.instagram {
+    background: #E1306C;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
