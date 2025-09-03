@@ -1,45 +1,45 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("child\ online\ quran.jpg");
+  background-image: url("child online quran.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 60vh;
+  height: 100vh;
   width: 100vw;
-  0;
   overflow: hidden;
+  font-family: Arial, sans-serif;
 }
 
-img {
-  width: 100vw;
-  height: auto;
-
-
-}
-
+/* Navigation Menu */
 .container1 ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 15px;
   list-style: none;
   justify-content: center;
   margin: 0;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .container1 ul li a {
   color: skyblue;
   text-decoration: none;
   font-weight: bold;
-  width: 50px;
   font-size: 20px;
 }
 
+/* Main Content */
 .container {
   position: absolute;
   right: 200px;
   top: 30%;
   max-width: 400px;
+  color: white;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 
 .container h2 {
@@ -51,4 +51,35 @@ img {
   font-size: 16px;
   line-height: 1.6;
   color: rgb(245, 244, 244);
+}
+
+/* Responsive Image */
+img {
+  max-width: 100% height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    position: static;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .container1 ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .container1 ul li a {
+    font-size: 18px;
+  }
+
+  body {
+    background-position: top;
+    height: auto;
+  }
 }
